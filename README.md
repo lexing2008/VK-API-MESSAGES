@@ -14,4 +14,5 @@ controllers\Cron.php - контролер задач для CRON. Задачи: 
 controllers\Statistic.php - Контроллер Статистики
 
 models\vk.php - Модель работы с VK.com
+
 models\Conversations.php - Модель работы с беседами в БД
