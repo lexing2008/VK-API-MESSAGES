@@ -61,7 +61,7 @@ class Conversations {
      * @param int $status_messages
      */
     public function update_by_id( $id, $date_first_message, $date_response, $reponse_time, $status_messages ){
-        $statement = $db->prepare('UPDATE `vk_db`.`conversations` SET
+        $statement = $db->prepare('UPDATE `conversations` SET
                                     `response_time` = :response_time,
                                     `date_first_message` = :date_first_message,
                                     `date_response` = :date_response,
